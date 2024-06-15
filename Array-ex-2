@@ -1,0 +1,10 @@
+function rotateLeft(arr,rotations){
+  const rotatedArr = arr.concat();
+  for (let i = 0; i<rotations; i++){
+    const frontItem = rotatedArr.shift();
+  rotatedArr.push(frontItem)
+  }
+  return rotatedArr
+  
+}
+ console.log(rotateLeft([1,2,3,4,5],3))
