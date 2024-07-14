@@ -63,3 +63,5 @@ const elements =[0,1,2]
 
 arr.push.apply(arr,elements)
 console.log(arr)
+
+
